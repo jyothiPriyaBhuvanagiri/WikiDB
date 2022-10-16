@@ -77,10 +77,10 @@ app.route("/articles/:articleName" )
             {name: req.body.name, content: req.body.content},
             function (err) {
                 if (err) {
-                    res.send("there is a response")
+                    res.send("there is a response from the server")
 
                 } else {
-                    res.send("there is no response")
+                    res.send("there is no response from the server")
                 }
 
             })
